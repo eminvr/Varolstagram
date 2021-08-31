@@ -15,3 +15,30 @@ a{
     height: 20px;
     width: 20px;
 }
+
+.vrl-post-owner-image{
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom:5px;
+}
+
+.vrl-post-name-border{
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.425);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 2px;
+}
+
+.vrl-post-image{
+    width: 100%;
+    height: 70vh;
+}
+
+.vrl-post-like-button-image{
+    height: 32px;
+    width: 30px;
+}

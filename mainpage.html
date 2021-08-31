@@ -13,57 +13,128 @@
 
     <link href="assets/css/vrlstlye.css" type="text/css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <script>
+        qq = 9;
+    </script>
+
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#"><span style="color: blue;">V</span><span style="color:tomato;">a</span><span
-            style="color: yellowgreen;">r</span><span style="color: purple;">o</span><span
-            style="color: crimson;">l</span>stragram</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Ara</button>
-          </form>
-          <div class="collapse d-sm-flex justify-content-lg-end" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="assets/images/navbar-images/home.png" class="vrl-navbar-home-image"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img src="assets/images/navbar-images/chat.png" class="vrl-navbar-home-image"></a>
-              
-              <li class="nav-item dropdown me-5">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="assets/images/navbar-images/settings.png" class="vrl-navbar-setting-image">
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Profil</a></li>
-                  <li><a class="dropdown-item" href="#">Kaydedilenler</a></li>
-                  <li><a class="dropdown-item" href="#">Ayarlar</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Çıkış Yap</a></li>
+            <a class="navbar-brand" href="#"><span style="color: blue;">V</span><span
+                    style="color:tomato;">a</span><span style="color: yellowgreen;">r</span><span
+                    style="color: purple;">o</span><span style="color: crimson;">l</span>stragram</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Ara" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+            <div class="collapse d-sm-flex justify-content-lg-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img
+                                src="assets/images/navbar-images/home.png" class="vrl-navbar-home-image"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><img
+                                src="assets/images/navbar-images/chat.png" class="vrl-navbar-home-image"></a>
+
+                    <li class="nav-item dropdown me-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="assets/images/navbar-images/settings.png" class="vrl-navbar-setting-image">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Profil</a></li>
+                            <li><a class="dropdown-item" href="#">Kaydedilenler</a></li>
+                            <li><a class="dropdown-item" href="#">Ayarlar</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Çıkış Yap</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
-              </li>
-              
-            </ul>
-            
-          </div>
+
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      
+    <div class="container mt-4">
+        <div class="row d-flex justify-content-center mb-4">
+            <div class="col-lg-6 col-9 ">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                        <div class="vrl-post-owner-image bg-primary">
+                            
+                        </div>
 
-      
-    
+                        <p class="pt-1 ps-1">Emin Varol</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 vrl-post-image bg-secondary">
+                        
+                    </div>
+                </div>
 
-    
+                <div class="row g-0">
+                    <div class="col-1">
+                        <a class="btn" onclick="likeButton()">
+                            <img src="assets/images/main-images/heart-empty.png" class="vrl-post-like-button-image" id="likebttn">
+                        </a>       
+                                       
+                    </div>
+
+                    <div class="col-1 ">
+                        <a class="btn">
+                            <img src="assets/images/main-images/speech-bubble.png" class="vrl-post-like-button-image">
+                        </a>                        
+                    </div>
+
+                    <div class="offset-9 col-1">
+                        <a class="btn">
+                            <img src="assets/images/main-images/ribbon.png" class="vrl-post-like-button-image">
+                        </a>                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        a = true;
+        function likeButton(){
+
+            
+            
+            if(a) {
+                document.getElementById("likebttn").src = "assets/images/main-images/heart-red.png";
+                a = !a;
+            }
+            else{
+                document.getElementById("likebttn").src = "assets/images/main-images/heart-empty.png";
+                a = !a;
+            }
+            
+        }
+    </script>  
 
     <script src="assets/js/bootstrap.min.js"></script>
+
+    
 </body>
 
 </html>
